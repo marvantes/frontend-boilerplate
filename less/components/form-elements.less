@@ -1,0 +1,44 @@
+
+/* Elementy formulářů */
+
+input[type=text],
+input[type=email],
+input[type=tel]{
+    background: @bg;
+    color:fade(@white,25%);
+    border:2px solid @white;
+    border-radius: 10px;
+    height: 46px;
+    float:left;
+    width: 100%;
+    transition:0.3s all;
+    padding: 0px 10px;
+    font-size: 18px;
+    font-weight: 300;
+
+    &:hover,&:focus{
+        outline:none;
+        color:@white;
+    }
+}
+
+textarea{
+    background: @bg;
+    color:fade(@white,25%);
+    border:2px solid @white;
+    border-radius: 10px;
+    height: 46px;
+    float:left;
+    width: 100%;
+    transition:0.3s all;
+    max-width: 100%;
+    padding: 6px 10px 0px 10px;
+    font-size: 18px;
+    min-height: 100px;
+    font-weight: 300;
+
+    &:hover,&:focus{
+        outline:none;
+        color:@white;
+    }
+}

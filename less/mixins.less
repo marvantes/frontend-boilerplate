@@ -1,0 +1,70 @@
+/* Funkce */
+
+.flex{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.center-h{
+    justify-content: center;
+}
+
+.between{
+    justify-content: space-between;
+}
+
+.around{
+    justify-content: space-around;
+}
+
+.none{
+    display:none;
+}
+
+.hidden{
+    display:none !important;
+}
+
+.center-v{
+    align-content: center;
+    align-items: center;
+}
+
+.flex-centered{
+    .flex;
+    .center-v;
+    .center-h;
+}
+
+.nowrap{
+    flex-wrap: nowrap;
+}
+
+.center-text,.textC{
+    text-align: center;
+}
+
+.radius(@radius) {
+    -webkit-border-radius: @radius;
+    -moz-border-radius: @radius;
+    border-radius: @radius;
+}
+
+.transition(@transition: 0.3s, @easing: ease-out){
+    -webkit-transition: all @transition @easing; 
+    transition: all @transition easing;
+}
+
+.translate(@x: 0px,@y: 0px){
+    transform: translate(@x,@y);
+}
+
+.absolute(@top: auto,@right: auto,@bottom: auto,@left: auto){
+    position: absolute;
+    top: @top;
+    right: @right;
+    bottom: @bottom;
+    left: @left;
+}
+
+        

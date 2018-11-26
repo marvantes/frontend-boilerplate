@@ -1,0 +1,39 @@
+/* Funkce */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+.center-h {
+  justify-content: center;
+}
+.between {
+  justify-content: space-between;
+}
+.around {
+  justify-content: space-around;
+}
+.none {
+  display: none;
+}
+.hidden {
+  display: none !important;
+}
+.center-v {
+  align-content: center;
+  align-items: center;
+}
+.flex-centered {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+.nowrap {
+  flex-wrap: nowrap;
+}
+.center-text,
+.textC {
+  text-align: center;
+}
+/*# sourceMappingURL=mixins.css.map */

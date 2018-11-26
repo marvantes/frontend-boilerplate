@@ -1,0 +1,42 @@
+
+/* Tlačítka */
+
+.button{
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 24px;
+    border-radius: 10px;
+    border:2px solid @white;
+    display:inline-block;
+    text-align: center;
+    padding: 9px 15px;
+    background: @bg;
+    cursor: pointer;
+    box-shadow: none;
+    transition:0.3s all;
+    color:@white;
+
+    &:hover,
+        &:active,
+        &:focus{
+        background:@white;
+        color:@bg;
+        outline:none;
+        text-decoration: none;
+    }
+
+
+    &.gold{
+        background: @gold;
+        color:white;
+        border-color: @gold;
+
+        &:hover,
+        &:active,
+        &:focus{
+            background:@bg;
+            color:@gold;
+        }
+    }
+
+}
